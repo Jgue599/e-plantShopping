@@ -188,6 +188,41 @@ body {
 
     
 }
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 40px;
+}
+
+.plant-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.plant-card img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.plant-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.plant-card p {
+    font-size: 14px;
+    color: #555;
+}
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
